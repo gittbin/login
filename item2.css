@@ -108,4 +108,11 @@ a{
 a:hover{
     color: rgb(0, 255, 242);
 }
-
+@media (max-width: 1110px) and (min-width: 768px){
+.container{
+    width: 900px;
+}
+}
+@media (max-width: 710px){
+    .container{width: 100%;}
+}
