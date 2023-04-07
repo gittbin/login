@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url(640956.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.container{
+    width:50%;
+display:flex ;
+align-items: center;
+justify-content: center;
+background-color: rgba(0, 0, 0, 0.749);
+     border-radius: 30px;   
+      background-size: cover;
+     background-repeat: no-repeat;}
+.error{
+    display: none;
+    color: red;
+    margin-top: 13px;
+
+}
+label{
+    display: block;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+h1{color: white;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    font-family: sans-serif;
+}
+.element{font-weight: 600;
+    font-family: sans-serif;
+    /* height: 100px; */
+    margin-bottom: 50px;
+    width: 100%;
+    position: relative;
+    }
+form{
+   display: flex;
+   flex-direction: column; 
+}
+.detail{
+    align-items: center;
+    width: 80%;
+}
+input{border: 0;
+    position: relative;
+    z-index: 2;
+    outline: none;
+    height: 100%;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(247, 247, 247);
+    height: 30px;
+   color: rgb(0, 255, 242);
+   width: 100%;
+transition: all 0.3s linear;
+font-family: sans-serif;
+font-size: 20px;
+}
+label{
+    transform:translateY(25px);
+    transition: all 0.1s linear;
+ 
+}
+.button{
+    width:300px;
+    height: 70px;
+    margin: auto;
+    border-radius: 30px;
+    background-color: rgba(90, 86, 86, 0.425);
+    color:white;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: 600;
+    border: 2px solid rgb(0, 255, 242);
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+.button:hover{
+    box-shadow: 0px 0px 10px 2px rgba(0, 255, 242, 0.491),
+    0px 0px 5px 2px rgba(40, 211, 203, 0.491);
+    color: rgb(0, 255, 242) ;
+  
+}
+.support{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    margin: 50px 0px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: rgb(0, 255, 242);
+}
+
